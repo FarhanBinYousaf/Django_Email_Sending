@@ -42,9 +42,9 @@ After setting all this , Now our next step is to send Email using `views`
 
 ### In Your views, add this line to send Email
 
-* `send_mail(subject,message,email_from,recipient_list)`
-        * `Subject`         => Heading of your message
-        * `message`         => Actual Message
-        * `email_from`      => `settings.EMAIL_HOST_USER` 
-        * `recipient_list`  => `To Email`
+        * `send_mail(subject,message,email_from,recipient_list)`
+* `Subject`         => Heading of your message
+* `message`         => Actual Message
+* `email_from`      => `settings.EMAIL_HOST_USER` 
+* `recipient_list`  => `To Email`
 
